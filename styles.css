@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+header {
+  background: #385998;
+  color: white;
+  padding: 20px;
+}
+header a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo-area {
+  font-size: 20px;
+  display: inline-block;
+}
+header .menu ul li,
+header .menu,
+header .icon-links,
+header .icon-links ul li,
+header .privacy,
+header .quick-options,
+header .search-section,
+.search-section ul li {
+  display: inline-block;
+}
+.material-icons {
+  font-size: 17px;
+  transform: translateY(5px);
+}
+.logo-area {
+  width: 20%;
+}
+.menu {
+  width: 40%;
+}
+.search-area {
+  width: 40%;
+}
